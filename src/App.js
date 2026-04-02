@@ -763,15 +763,7 @@ export default function App() {
       {/* ── AMC Brand ── */}
       <div style={S.navBrand} onClick={goShop} role="button" tabIndex={0} title="回首頁"
         onKeyDown={e => e.key === 'Enter' && goShop()}>
-        {/* Logo Mark */}
-        <div style={S.navLogoMark} className="amc-logo-mark">
-          <span style={S.navLogoText}>AMC</span>
-        </div>
-        {/* Title group */}
-        <div style={S.navTitleGroup}>
-          <span style={S.navTitleMain}>宏睿樂器</span>
-          <span style={S.navTitleSub} className="amc-subtitle">Alliance Music Company</span>
-        </div>
+        <img src="/logo.png" alt="AMC 宏睿樂器" style={{height:'48px',objectFit:'contain'}} />
       </div>
 
       {/* ── Right nav ── */}
